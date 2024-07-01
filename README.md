@@ -28,7 +28,7 @@ Java Input Handler is a robust utility designed to streamline and secure user in
 3. Build the project in the directory you've been guided to using your preferred build tool (e.g., Maven, Gradle).
 
 ### Usage
-Here's a simple example demonstrating how to use the SafeInput Handler in a Java application with many of its functions in use:
+Here's a simple example demonstrating how to use the Input Handler in a Java application with many of its functions in use:
 ```java
     import java.util.Scanner;
     import com.safeinput.SafeInput;
