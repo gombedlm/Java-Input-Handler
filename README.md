@@ -2,15 +2,12 @@
 
 ## Overview
 Java SafeInput Handler is a robust utility designed to streamline and secure user input handling in Java applications. It offers a suite of tools to validate, sanitize, and process user input efficiently, reducing the risk of errors and vulnerabilities in your applications.
-### Python version
-A Future Python Version will be implemented and linked here
 
 ## Features
 - **Input Validation**: Ensures user input meets specified criteria.
 - **Input Sanitization**: Cleans user input to prevent injection attacks.
 - **Error Handling**: Provides detailed error messages and logging.
 - **Extensibility**: Easily extendable to add custom validation rules.
-
 
 
 ## Getting Started
@@ -53,5 +50,10 @@ public class Main {
         scanner.close();
     }
 }
+```
+
+## Other Versions
+### Python 
+A Future Python Version will be implemented and linked here
 
 
