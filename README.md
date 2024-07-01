@@ -29,27 +29,26 @@ Java SafeInput Handler is a robust utility designed to streamline and secure use
 
 ### Usage
 Here's a simple example demonstrating how to use the SafeInput Handler in a Java application with many of its functions in use:
-
 ```java
-import java.util.Scanner;
-import com.safeinput.SafeInput;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Example usage of SafeInput methods
-        String nonEmptyString = SafeInput.getNonZeroLenString(scanner, "Enter a non-empty string");
-        int integer = SafeInput.getInt(scanner, "Enter an integer");
-        double floatingPoint = SafeInput.getDouble(scanner, "Enter a decimal number");
-
-        System.out.println("Entered String: " + nonEmptyString);
-        System.out.println("Entered Integer: " + integer);
-        System.out.println("Entered Double: " + floatingPoint);
-
-        scanner.close();
+    import java.util.Scanner;
+    import com.safeinput.SafeInput;
+    
+    public class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+    
+            // Example usage of SafeInput methods
+            String nonEmptyString = SafeInput.getNonZeroLenString(scanner, "Enter a non-empty string");
+            int integer = SafeInput.getInt(scanner, "Enter an integer");
+            double floatingPoint = SafeInput.getDouble(scanner, "Enter a decimal number");
+    
+            System.out.println("Entered String: " + nonEmptyString);
+            System.out.println("Entered Integer: " + integer);
+            System.out.println("Entered Double: " + floatingPoint);
+    
+            scanner.close();
+        }
     }
-}
 ```
 
 ## Other Versions
